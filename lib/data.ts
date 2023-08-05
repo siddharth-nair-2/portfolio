@@ -56,28 +56,21 @@ export const projectsData = [
   {
     title: "AutoGrader",
     description:
-      "AutoGrader is a tool designed to simplify the process of grading programming assignments for instructors, while providing students with a user-friendly in-browser Integrated Development Environment.",
-    tags: [
-      "Java",
-      "React",
-      "Node.js",
-      "MongoDB",
-      "Spring Boot",
-      "Google Cloud",
-    ],
+      "AutoGrader streamlines grading programming assignments for instructors and provides students an intuitive in-browser IDE.",
+    tags: ["React", "Spring Boot", "Node.js", "MongoDB", "Google Cloud"],
     imageUrl: aurograderImg,
   },
   {
     title: "Arena",
     description:
-      "Developed a live chat app using React and Express.js, featuring a secure login/signup system, real-time messaging with socket.io, and responsive design for seamless use across browsers.",
+      "Built real-time chat app with React, Express, socket.io, and responsive design for seamless messaging across browsers.",
     tags: ["React", "Node.js", "MongoDB", "Socket.io", "Axios", "Heroku"],
     imageUrl: arenaImg,
   },
   {
     title: "FootyShop",
     description:
-      "A dynamic e-commerce website created with React, Material-UI, Stripe, and Redux for a seamless user experience and secure payment processing, along with with intuitive navigation and responsive design.",
+      "E-commerce website with React, Material-UI, Stripe, and Redux enabling seamless user experience, secure payments, intuitive navigation.",
     tags: ["React", "Redux", "Material-UI", "Stripe", "Axios", "Heroku"],
     imageUrl: footyshopImg,
   },
