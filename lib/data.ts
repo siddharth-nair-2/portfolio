@@ -3,7 +3,7 @@ import aurograderImg from "@/public/autograder.png";
 import footyshopImg from "@/public/footyshop.png";
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import { GrTest } from "react-icons/gr";
+import { HiOutlineLightBulb } from "react-icons/hi";
 import { MdDesignServices, MdFastfood } from "react-icons/md";
 
 export const links = [
@@ -40,7 +40,7 @@ export const experiencesData = [
     location: "Remote, Canada",
     description:
       "Gained insights to enhance digital UX through 200+ usability tests, capturing user interactions and delivering feedback on usability.",
-    icon: React.createElement(GrTest),
+    icon: React.createElement(HiOutlineLightBulb),
     date: "2020-2023",
   },
   {
@@ -79,6 +79,7 @@ export const projectsData = [
       "AutoGrader streamlines grading programming assignments for instructors and provides students an intuitive in-browser IDE.",
     tags: ["React", "Spring Boot", "Node.js", "MongoDB", "Google Cloud"],
     imageUrl: aurograderImg,
+    githubUrl: "https://github.com/siddharth-nair-2/AutoGrader-FinalBuild",
   },
   {
     title: "Arena",
@@ -86,6 +87,7 @@ export const projectsData = [
       "Built real-time chat app with React, Express, socket.io, and responsive design for seamless messaging across browsers.",
     tags: ["React", "Node.js", "MongoDB", "Socket.io", "Axios", "Heroku"],
     imageUrl: arenaImg,
+    githubUrl: "https://github.com/siddharth-nair-2/Arena-chat-app",
   },
   {
     title: "FootyShop",
@@ -93,6 +95,7 @@ export const projectsData = [
       "E-commerce website with React, Material-UI, Stripe, and Redux enabling seamless user experience, secure payments, intuitive navigation.",
     tags: ["React", "Redux", "Material-UI", "Stripe", "Axios", "Heroku"],
     imageUrl: footyshopImg,
+    githubUrl: "https://github.com/siddharth-nair-2/Ecommerce-Project",
   },
 ] as const;
 

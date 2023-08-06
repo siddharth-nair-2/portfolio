@@ -8,7 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
-import { GrDocumentPdf } from "react-icons/gr";
+import { HiDocumentText } from "react-icons/hi";
 
 export default function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -84,18 +84,18 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 
-          hover:scale-110 active:scale-105 transition cursor-pointer borderBlack"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/resume.pdf"
           target="_blank"
         >
           View Resume{" "}
-          <GrDocumentPdf className="opacity-60 group-hover:translate-y-1 transition" />
+          <HiDocumentText className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         <a
           className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15]
-          hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer borderBlack"
+          hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer borderBlack
+          dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/siddharth-nair2/"
           target="_blank"
         >
@@ -104,7 +104,8 @@ export default function Intro() {
 
         <a
           className="bg-white text-gray-700 p-4 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15]
-          hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer borderBlack"
+          hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer borderBlack 
+          dark:bg-white/10 dark:text-white/60"
           href="https://github.com/siddharth-nair-2"
           target="_blank"
         >
