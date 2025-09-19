@@ -62,7 +62,7 @@ export const projectsData = [
       "Secure RAG pipeline with ACL-aware retrieval, hybrid search, and real-time streaming chat. Multi-tenant backend with FastAPI handling 40+ endpoints.",
     tags: ["FastAPI", "Next.js", "PostgreSQL", "Celery", "Haystack", "Qdrant"],
     imageUrl: monolithImg,
-    githubUrl: "https://github.com/siddharth-nair-2",
+    githubUrl: "https://github.com/siddharth-nair-2/monolith-backend",
   },
   {
     title: "Arena",
