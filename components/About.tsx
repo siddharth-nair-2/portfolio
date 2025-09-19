@@ -20,33 +20,32 @@ export default function About() {
       <p className="mb-3">
         Hello! I'm Siddharth Nair, a{" "}
         <span className="font-semibold">
-          passionate software/full-stack developer
+          Software Engineer at Interax Group
         </span>{" "}
-        with a strong focus on creating dynamic and engaging online experiences.
-        My journey in computers began during my early teenage years when I first
-        <span className="font-semibold"> built my own PC</span>. This early
-        exploration ignited my
-        <span className="font-semibold"> enthusiasm</span> for the field.
+        with expertise in building enterprise-scale applications. Currently, I'm working on
+        <span className="font-semibold"> multi-tenant platforms</span> for regulated industries,
+        specializing in{" "}
+        <span className="font-semibold">.NET, React, and cloud-native architectures</span>.
       </p>
       <p className="mb-3">
-        Since then, I have had the opportunity to learn in diverse environments,
-        including an{" "}
-        <span className="font-semibold">
-          internship, freelance work, 4 years of University, and various
-          personal projects
-        </span>
-        . These experiences have enriched my skill set and provided me with a
-        comprehensive understanding of{" "}
-        <span className="font-semibold"> development processes</span> and best
-        practices.
+        My recent work includes modernizing legacy systems managing{" "}
+        <span className="font-semibold">100,000+ documents</span>,
+        building{" "}
+        <span className="font-semibold">AI-powered RAG pipelines</span>,
+        and developing real-time document processing services. I've successfully
+        implemented enterprise features like{" "}
+        <span className="font-semibold">SAML 2.0 SSO</span> and
+        domain-based authorization frameworks, reducing support tickets by 30%.
       </p>
       <p>
-        I am motivated by the opportunity to combine my{" "}
+        With a{" "}
+        <span className="font-semibold">Bachelor's in Computer Science (Honours, GPA: 3.9/4)</span>{" "}
+        from Algoma University, I'm passionate about{" "}
         <span className="font-semibold">
-          technical skills, creativity, and problem-solving abilities
+          building scalable, secure solutions
         </span>{" "}
-        to build{" "}
-        <span className="underline">cutting-edge software solutions</span>.
+        that solve real-world problems in{" "}
+        <span className="underline">healthcare, enterprise, and AI domains</span>.
       </p>
     </motion.section>
   );

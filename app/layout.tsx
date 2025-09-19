@@ -10,9 +10,9 @@ import ThemeContextProvider from "@/context/theme-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Siddharth | Personal Portfolio",
+  title: "Siddharth Nair | Software Engineer",
   description:
-    "Siddharth is a New Graduate Software Developer who's passionate about building web applications!",
+    "Software Engineer at Interax Group specializing in enterprise applications, .NET, React, and AI-powered solutions. Building scalable systems for healthcare and regulated industries.",
 };
 
 export default function RootLayout({

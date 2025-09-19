@@ -29,7 +29,7 @@ export default function Project({
         opacity: opacityProgress,
       }}
       ref={ref}
-      className="group mb-3 sm:mb-8 last:mb-0 "
+      className="group mb-8 sm:mb-12 last:mb-0 "
     >
       <a href={githubUrl} target="_blank">
         <section
@@ -58,6 +58,8 @@ export default function Project({
             src={imageUrl}
             alt={title}
             quality={80}
+            width={452}
+            height={320}
             className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl 
           transition group-hover:scale-[1.04] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 
           group-even:right-[initial] group-even:-left-40 
